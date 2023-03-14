@@ -1,0 +1,43 @@
+{
+  "title": "Deployment Basics",
+  "description": "Learn to work with deployments",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Create a deployment",
+        "text": "step1/text.md"
+      },
+      {
+        "title": "Scale a deployment up",
+        "text": "step2/text.md"
+      },
+      {
+        "title": "Scale a deployment down",
+        "text": "step3/text.md"
+      },
+      {
+        "title": "Update a deployment",
+        "text": "step4/text.md"
+      },
+      {
+        "title": "Delete a deployment",
+        "text": "step5/text.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "alpine:latest",
+    "expose": 8080,
+    "layout": "",
+    "skins": "",
+    "tools": "idea",
+    "cpu": 1,
+    "memory": 1024
+  }
+}
